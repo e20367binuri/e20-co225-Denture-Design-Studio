@@ -1,0 +1,180 @@
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #2F5770 -1.26%, #609C94 100%);
+   overflow: hidden;
+    
+    
+}
+.Homepage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./homebackground.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.78; /* Set the opacity of the background image */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+.appname{
+    position: absolute;
+    width: 60vw;
+    max-width: 905px;
+    height: 15vw;
+    right: 40%;
+    top: 30%;
+
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 400;
+font-size: 8vw;
+line-height: 8vw;
+display: flex;
+align-items: center;
+text-align: center;
+
+background: linear-gradient(90deg, #4d93e3 -25%, #083A74 100%);
+
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/*text-fill-color: transparent;*/
+
+text-shadow: 8px 8px 11px rgba(0, 0, 0, 0.62);
+
+
+}
+
+.logo{
+    position: absolute;
+width: 15vw;
+height: 12vw;
+left: 2%;
+top: 2%;
+
+}
+
+.welcome{
+    position: absolute;
+    width: 48vw;
+    max-width: 719px;
+    height: 7vw;
+    left: 15%;
+    top: 20%;
+    
+    font-family: 'Salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0D0654;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+
+}
+.login{
+    /* Button  */
+
+position: absolute;
+width: 20vw;
+max-width: 292px;
+height: 4.6vw;
+left: 7%;
+top: 82%;
+background: #66D8D8;
+border-bottom: 3px solid #000000;
+box-shadow: 10px 8px 12px rgba(0, 0, 0, 0.35);
+border-radius: 1.336vw;
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 400;
+font-size: 2.138vw;
+line-height: 134.77%;
+}
+.login:hover{
+position: absolute;
+left: 7%;
+max-width:300px;
+width: 20.04vw;
+height: 5.01vw;
+top: 82%;
+background: #66D8D8;
+border-bottom: 3px solid #000000;
+box-shadow: 10px 8px 12px rgba(0, 0, 0, 0.35);
+border-radius: 1.336vw;
+}
+
+.signup{
+    position: absolute;
+width: 20vw;
+max-width: 292px;
+height: 4.6vw;
+left: 30%;
+top: 82%;
+background: #66D8D8;
+border-bottom: 3px solid #000000;
+box-shadow: 10px 8px 12px rgba(0, 0, 0, 0.35);
+border-radius: 1.336vw;
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 400;
+font-size: 2.138vw;
+line-height: 134.77%;
+   
+}
+.signup:hover{
+    position: absolute;
+    left: 30%;
+    max-width:300px;
+    width: 20.04vw;
+    height: 5.01vw;
+    top: 82%;
+    background: #66D8D8;
+    border-bottom: 3px solid #000000;
+    box-shadow: 10px 8px 12px rgba(0, 0, 0, 0.35);
+    border-radius: 1.336vw;
+    }
+    @media (max-width: 768px) {
+        .appname {
+            font-size: 8vw;
+        }
+    
+        .welcome {
+            font-size: 4vw;
+        }
+    
+        .login, .signup {
+            font-size: 2.138vw;
+            top: 60%;
+        }
+        .login:hover, .signup:hover {
+            font-size: 2.138vw;
+            top: 60%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .appname {
+            font-size: 16vw;
+            right: 5%;
+        }
+    
+        .welcome {
+            font-size: 8vw;
+        }
+    
+        .login, .signup {
+            font-size: 6vw;
+            width: 80vw;
+            left: 10%;
+            top: 90%;
+        }
+    }
