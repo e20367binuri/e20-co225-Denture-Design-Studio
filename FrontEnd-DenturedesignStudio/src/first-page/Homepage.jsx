@@ -6,8 +6,8 @@ import './Homepage.css';
 function Homepage() {
   let navigate = useNavigate();
 
-  function handleClick() {
-    navigate('/login1');
+  function handleClick(path) {
+    navigate(path);
   }
 
   return (
@@ -22,7 +22,7 @@ function Homepage() {
           <h1 className='appname'>Denture Design Studio</h1>
         </div>
         <div>
-          <button className='login' onClick={handleClick}>Login</button>
+          <button className='login' onClick={()=>handleClick('/login1')}>Login</button>
           <button className='signup'>Signup</button>
         </div>
       </div>
