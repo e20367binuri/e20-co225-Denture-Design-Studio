@@ -1,0 +1,208 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(-90deg, #2f5770 -1.26%, #609c94 100%);
+    overflow: hidden;
+  }
+ .signuppage::before{
+    content: "";
+    position: absolute;
+    top: 12.625vh;
+    left: 49.967vw;
+    width: 45.291vw;
+    height: 34.335vw;
+    background-image: url(./signupbackground.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -1;  
+
+ }
+ .contentbox2{
+    position: absolute;
+width: 47.361vw;
+height: 43vw;
+left: 13.093vw;
+top: 1.306vw;
+
+background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3vw;
+
+ }
+.signinput{
+   position: absolute;
+    width: 20.228vw;
+    height: 3.804vw;
+    line-height: 0;
+    left: 5vw;
+}
+.signinput input{
+   
+box-sizing: border-box;
+
+position: absolute;
+width: 21.109vw;
+height: 1.937vw;
+left: 0;
+top: 1.9vw;
+
+background: #D3EBDD;
+mix-blend-mode: multiply;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+font-family: 'salsa';
+font-size: large;
+}
+.signinput input:focus{
+
+   font-family: 'salsa';
+   font-size: large;
+}
+.signhead{
+   position: absolute;
+width: 21.109vw;
+height: 2.004vw;
+left: 0vw;
+top: 0vw;
+
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 40;
+font-size: 1.603vw;
+line-height: 0px;
+display: flex;
+align-items: center;
+padding: 0;
+margin: 0;
+color: #0C4B29;
+}
+.role{
+   position: absolute;
+width: 18.838vw;
+height: 6.004vw;
+left: 30.617vw;
+top: 7.018vw;
+
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 400;
+font-size: 1.603vw;
+line-height: 1.937vw;
+/* identical to box height */
+display: flex;
+align-items: center;
+margin: 0;
+padding: 0;
+color: #0C4B29;
+
+}
+.eyeicon{
+   position: absolute;
+   left: 97%;
+   top: 65%;
+   cursor: pointer;
+}
+ #Student1{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top: 5vw;
+   left: 3vw;
+   cursor: pointer;
+}
+#Student2{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top: 4.5vw;
+   left: 4.5vw;
+}
+ #Assessor1{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top: 7.5vw;
+   left: 3vw;
+   cursor: pointer;
+}
+#Assessor2{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   top: 7vw;
+   left: 4.5vw;
+}
+.header2{
+   position: absolute;
+width: 36.473vw;
+height: 4.676vw;
+left: 6.804vw;
+top: 1.14vw;
+margin: 0;
+padding: 0;
+
+font-family: 'Salsa';
+font-style: normal;
+font-weight: 400;
+font-size: 3.206vw;
+line-height: 3.941vw;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0C4B29;
+
+}
+#signinput1{ 
+   top: 7vw;
+   
+}
+#signinput2{ 
+   top: 12vw;
+}
+#signinput3{ 
+   top: 17vw;
+}
+#signinput4{ 
+   top: 22vw;
+}
+#signinput5{ 
+   top: 27vw;
+}
+#signinput6{ 
+   top: 32vw;
+}
+.sign2{
+   position: absolute;
+   width: 17.038vw;
+   height: 4vw;
+   left: 15vw;
+   top: 37vw;
+   background: #519b97;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   backdrop-filter: blur(2px);
+   border-radius: 1.336vw;
+   font-family: "Salsa";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2.138vw;
+   line-height: 134.77%;
+   border: none;
+   color: #0c4b29;
+}
+.sign2:hover{
+   width: 17.5vw;
+   height: 4.4vw;
+   cursor: pointer;
+}
+ @media (max-width: 768px) {
+    .signuppage::before{
+        top: 30vh;
+    left: 25vw;
+    width: 80vw;
+    height: 60vw;
+    }
+ }
